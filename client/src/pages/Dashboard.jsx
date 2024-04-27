@@ -63,7 +63,7 @@ const CreateButton = Styled.div`
   font-weight: 800;
   color: ${({ theme }) => theme.text};
   border-radius: 12px;
-  background: linear-gradient(76.35deg, #801AE6 15.89%, #A21AE6 89.75%);
+  background: linear-gradient(76.35deg, #4C4CFF 15.89%, #800080 89.75%);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -81,11 +81,12 @@ const CreateButton = Styled.div`
     `
     background: linear-gradient(76.35deg, #FFC107 15.89%, #FFC107 89.75%);
     &:hover {
-      background: linear-gradient(76.35deg, #FFC107 15.89%, #FFC107 89.75%);
+      background: linear-gradient(76.35deg, #FFD600 15.89%, #FFD600 89.75%);
       box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
     }
   `}
 `;
+
 
 const Icon = Styled.div`
   display: flex;

@@ -31,7 +31,7 @@ height: 70px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: #854CE616;
+  background-color: white;
   border: 6px solid #854CE6;
   margin-bottom: 20px;
   @media (max-width: 768px) {

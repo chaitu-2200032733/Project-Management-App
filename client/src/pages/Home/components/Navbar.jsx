@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 
 const Container = styled.div`
-width: 90%;
-max-width: 1320px;
+  width: 90%;
+  max-width: 1320px;
   height: 60px;
   margin: 12px 14px;
   display: flex;
@@ -14,10 +14,11 @@ max-width: 1320px;
     padding: 0px 20px !important;
   }
 `;
+
 const Logo = styled.h1`
   font-weight: 600;
   font-size: 20px;
-  color: ${({ theme }) => theme.primary};
+  color: white;
 `;
 
 const Menu = styled.ul`
@@ -34,21 +35,19 @@ const MenuItem = styled.a`
   font-size: 16px;
   text-decoration: none;
   font-weight: 500;
-  color: ${({ theme }) => theme.text};
+  color: white;
   cursor: pointer;
   transition: all 0.3s ease;
   &:hover {
-    color: ${({ theme }) => theme.primary};
+    color: lightgray;
   }
 `;
 
-
-
 const Button = styled.button`
   padding: 5px 18px;
-  background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.primary};
-  color: ${({ theme }) => theme.primary};
+  background-color: white;
+  border: 1px solid white;
+  color: black;
   border-radius: 3px;
   font-weight: 500;
   cursor: pointer;
@@ -59,15 +58,15 @@ const Button = styled.button`
   border-radius: 100px;
   transition: all 0.3s ease;
   &:hover {
-    background-color: ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.text};
+    background-color: lightgray;
   }
 `;
+
 const Navbar = ({ setSignInOpen }) => {
 
   return (
     <Container>
-      <Logo>VEXA</Logo>
+      <Logo>BINGE</Logo>
       <Menu>
         <MenuItem href="#home">Home</MenuItem>
         <MenuItem href="#features">Features</MenuItem>
@@ -77,9 +76,8 @@ const Navbar = ({ setSignInOpen }) => {
       <Button onClick={() => setSignInOpen(true)}>
         <AccountCircleOutlinedIcon /> Sign In
       </Button>
-
     </Container>
   )
 }
 
-export default Navbar
+export default Navbar;

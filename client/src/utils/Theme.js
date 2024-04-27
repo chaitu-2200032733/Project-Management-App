@@ -1,3 +1,23 @@
+export const lightTheme = {
+    bg:"#F8F9FD",
+    bgLighter:"#FFFFFF",
+    itemHover: "#F7F5F4",
+    itemText:"#555F61",
+    primary: "#854CE6",
+    bgDark:"white",
+    text:"#2F2F2F",
+    textSoft:"#606060",
+    soft:"#C4C4C4",
+    soft2:"#757575",
+    card: "#FFFFFF",
+    lightAdd:"",
+    recieve_message: "#ffffff",
+    chat_background: "#f5f5fc",
+    send_message: "#4f34ad",
+    send_message_text_color: "#ffffff",
+    contact_background: "#ffffff",
+
+  }
 export const darkTheme = {
     bg:"#15171E",
     bgLighter:"#1C1E27",
@@ -34,23 +54,3 @@ Swatch 6
 #40b957*/
 }
 
-export const lightTheme = {
-    bg:"#F8F9FD",
-    bgLighter:"#FFFFFF",
-    itemHover: "#F7F5F4",
-    itemText:"#555F61",
-    primary: "#854CE6",
-    bgDark:"white",
-    text:"#2F2F2F",
-    textSoft:"#606060",
-    soft:"#C4C4C4",
-    soft2:"#757575",
-    card: "#FFFFFF",
-    lightAdd:"",
-    recieve_message: "#ffffff",
-    chat_background: "#f5f5fc",
-    send_message: "#4f34ad",
-    send_message_text_color: "#ffffff",
-    contact_background: "#ffffff",
-
-  }
